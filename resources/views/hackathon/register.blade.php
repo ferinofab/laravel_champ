@@ -8,7 +8,7 @@
     <title>Document</title>
 </head>
 <body>
-<form action="{{route('hackathon.store')}}" method="post">
+<form action="{{route('hackathon.register.store')}}" method="post">
     @csrf
     <input type="number" placeholder="Телефон" name="number">
     <input type="text" placeholder="Имя" name="name">

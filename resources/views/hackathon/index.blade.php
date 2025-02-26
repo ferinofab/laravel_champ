@@ -8,7 +8,7 @@
     <title>Document</title>
 </head>
 <body>
-<a href="{{route('hackathon.signIn')}}">войти</a>
-<a href="{{route('hackathon.create')}}">зарегистрироватся</a>
+<a href="{{route('hackathon.login')}}">войти</a>
+<a href="{{route('hackathon.register')}}">зарегистрироватся</a>
 </body>
 </html>
